@@ -1,34 +1,50 @@
-.game{
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    color: black;
-    margin: auto;
-    font-weight: 500;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.title{
+
+.game {
+    width: 640px;
+    height: 670px;
+    color: black;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.nav{
     letter-spacing: 2px;
     background: green;
     padding:5px 0 ;
     margin: 5px;
     font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
-span{
-    color: red;
+.class{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    color: black;
 
+    
 }
-
-.square{
-    width: 191px;
-    height: 150px;
+.type{
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+    cursor: pointer;
     background: green;
-    float: left;
-    margin: 3px;
-    font-size: 70px;
+    font-weight: 900;
+    font-size: 85px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
 }
-
-.square:hover{
+.type:hover{
     background-color: red;
     cursor: pointer;
 }
