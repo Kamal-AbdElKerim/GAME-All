@@ -2,41 +2,33 @@
     width: 600px;
     height: 600px;
     text-align: center;
-    font-family: system-ui;
-    color: white;
+    color: black;
     margin: auto;
     font-weight: 500;
 }
 
 .title{
-<<<<<<< HEAD
     letter-spacing: 2px;
     background: green;
     padding:5px 0 ;
     margin: 5px;
     font-size: 30px;
-=======
-    background-color: rgb(180, 157, 216);
-    padding: 5px 0;
-    margin: 5px 0;
->>>>>>> 61a8bdda1d7da9cd3e3a6aeff845a272f9fbd932
 }
-
 span{
-    color: aqua;
+    color: red;
+
 }
 
 .square{
-<<<<<<< HEAD
     width: 191px;
     height: 150px;
     background: green;
-=======
-    width: 80px;
-    height: 80px;
-    background-color: rgb(219, 106, 205);
->>>>>>> 61a8bdda1d7da9cd3e3a6aeff845a272f9fbd932
     float: left;
-    margin: 2px;
-    font-size: 50px;
+    margin: 3px;
+    font-size: 70px;
+}
+
+.square:hover{
+    background-color: red;
+    cursor: pointer;
 }
